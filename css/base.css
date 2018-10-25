@@ -1,0 +1,41 @@
+/*定义全局样式*/
+*{
+	margin: 0;
+	padding: 0;
+	font:12px/1.5 "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+}
+body{
+	color: #333;
+	min-width: 1090px;
+	margin: 0 auto;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #999;
+}
+.myClear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*头部样式*/
+.my_heard{
+	width: 100%;
+	height: 171px;
+}
+/*底部样式*/
+.my_footer{
+	width: 100%;
+	height: 600px;
+}
+/*字体颜色*/
+.font_gray{
+	color:#999;
+}
+/*字体大小*/
+.my_size{
+	font-size: 14px;
+}

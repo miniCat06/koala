@@ -1,0 +1,48 @@
+/*网页主体：右侧*/
+#login_middle .middle_right{
+    height: 355px;
+    color: #999;
+    border-bottom: none;
+}
+#login_middle .middle_right .right_top span:last-child{
+    font-weight: normal;
+    font-size: 12px;
+    color: #333;
+}
+#login_middle .middle_right .right_top span:last-child a{
+    color: #51b8f1;
+    margin-left: 5px;
+}
+/*网页主体：右侧-中间部分*/
+#login_middle .middle_right div.r_middle{
+    height: 300px;
+}
+/*手机号码*/
+#login_middle form div.r_middle_2{
+    width: 280px;
+    margin-bottom:20px ;
+}
+#login_middle form div.r_middle_3,.btn{
+    margin: 0 0 20px 0;
+}
+/*注册按钮*/
+#login_middle form a.btn{
+    margin: 0;
+}
+#login_middle form div.r_middle_4 {
+    padding: 0;
+}
+/*密码图标*/
+#login_middle form div.r_middle_2 .lock_1{
+    background: url("../img/ursicon.png") no-repeat -68px -33px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    height: 20px;
+}
+/*同意协议*/
+#login_middle form>input:last-child{
+    margin-right:5px ;
+    display: inline-block;
+    vertical-align: text-bottom;
+}

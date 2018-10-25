@@ -1,0 +1,180 @@
+body{
+	background: #F6F6F6;
+}
+#contain{
+	width: 1120px;
+	margin: 20px auto 0;
+}
+/*专区分类*/
+#contain div.cation{
+	height: 332px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #E9E9E9;
+	padding-bottom:40px ;
+}
+/*今日限时购*/
+#contain div.t_limit{
+	height: 74px;
+	line-height: 74px;
+}
+#contain div.t_limit span.limit_big{
+	font-size: 22px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+#contain div.t_limit span.limit_color{
+	color: #999;
+	font-size: 14px;
+}
+#contain div.t_limit a{
+	float: right;
+	font-size: 14px;
+	height: 74px;
+	line-height: 74px;
+}
+/*今日限时购下方*/
+#contain div.t_limit_tu{
+	height: 380px;
+	border-bottom: 1px solid #E9E9E9;
+	padding-bottom:40px ; 
+}
+/*今日限时购下方：左侧内容*/
+#contain div.limit_left{
+	float: left;
+	width: 840px;
+	border-left:1px solid #E9E9E9;
+	border-top:1px solid #E9E9E9;
+}
+/*今日限时购下方：左侧内容-四个小框*/
+#contain div.limit_left1{
+	border-right:1px solid #E9E9E9;
+	border-bottom:1px solid #E9E9E9;
+	height: 189px;
+	width:419px;
+	background: #fff;
+	float: left;
+}
+#contain div.limit_left img{
+	float: left;
+}
+/*四个小框的文字部分*/
+#contain div.limit_left2{
+	float: left;
+	width: 200px;
+	height: 188px;
+	margin-right: 15px;
+	position: relative;
+}
+#contain div.limit_left2 h3{
+	height: 21px;
+	margin: 16px 0 6px;
+}
+#contain div.limit_left2 h3 a{
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+}
+#contain div.limit_left2 p.limit_font{
+	margin: 5px 0 10px 0;
+}
+#contain p.limit_font span.font_red{
+	font-size: 20px;
+	color: #ff1e32;
+	font-weight: bold;
+}
+#contain p.limit_font span.font_del{
+	font-size: 14px;
+	color: #999;
+	text-decoration: line-through;
+}
+#contain div.limit_left2 p.limit_size{
+	position: absolute;
+	bottom:25px;
+	font-size: 14px;
+}
+/*抢购按钮*/
+#contain div.limit_left2 a.limit_btn{
+	display: inline-block;
+	width: 80px;
+	height: 36px;
+	line-height: 36px;
+	border-radius:36px;
+	font-size: 14px;
+	border: 1px solid #ff1e32;
+	color: #ff1e32;
+	text-align: center;
+	position:absolute;
+	bottom: 20px;
+	right: 0;
+}
+/*按钮悬停样式*/
+#contain div.limit_left2 a.limit_btn:hover{
+	background: #fff4f5;
+}
+/*今日上新内容*/
+#contain div.update_new{
+	height: 768px;
+	border-bottom: 1px solid #E9E9E9;
+	padding-bottom:40px ;
+}
+/*今日上新内容:八个框*/
+#contain div.update_new div.update_new1{
+	width: 260px;
+	height: 384px;
+	margin-right:20px;
+	float: left;
+}
+#contain div.update_new div.update_new1 a.new_tu{
+	background: #fff;
+	display: block;
+	width: 180px;
+	height: 180px;
+	padding: 39px;
+	vertical-align: middle;
+	border: 1px solid #e9e9e9;
+}
+/*今日上新内容:下方文字部分*/
+#contain .update_new .update_new1 h3{
+	width: 260px;
+	height: 45px;
+	line-height: 24px;
+	text-align: left;
+	margin: 7px 0 7px 0;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+#contain .update_new .update_new1 h3 a{
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*热门品牌内容*/
+#contain div.hot_brand{
+	height: 355px;
+}
+/*热门品牌内容：左边*/
+#contain div.hot_brand .hot_brand_left{
+	width: 219px;
+	height: 355px;
+}
+#contain div.hot_brand .hot_brand_left img{
+	width: 219px;
+	height: 219px;
+	vertical-align: middle;
+}
+/*热门品牌内容：左边文字部分*/
+#contain div.hot_brand .hot_brand_txt{
+	width: 219px;
+	height: 136px;
+	background: #151515;
+	color: #fff;
+	opacity: 0.8;
+	text-align: center;
+}
+#contain div.hot_brand .hot_brand_txt p.hot_brand_ad{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 41px 0 4px;
+	margin: 0 12px;
+}

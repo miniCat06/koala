@@ -1,0 +1,96 @@
+ /*底部：上方的部分*/
+div#footer{
+	background: #fff;
+	min-width: 1100px;
+	height: 411px;
+}
+div#footer ul.sever{
+	width: 1100px;
+	margin: 0 auto;
+	padding:49px 0;
+	border-bottom: 1px solid #EAEAEA;
+}
+div#footer ul.sever li{
+	float: left;
+	width: 233px;
+	margin-left: 40px;
+}
+/*圆形边框的字*/
+div#footer ul.sever li div.circle{
+	width: 44px;
+	height: 44px;
+	border: 2px solid #d6d6d6;
+	border-radius: 50%;
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+	line-height: 44px;
+	font-weight: bold;
+	float: left;
+	margin-right: 20px;
+}
+/*右边部分粗体字*/
+div#footer ul.sever li span.tit{
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+}
+div#footer ul.sever li span.desc{
+	font-size: 14px;
+	display: block;
+}
+/*底部下方：图标部分*/
+div#footer #footer_b{
+	width: 1100px;
+	height: 128px;
+	margin: 0 auto;
+	padding: 45px 0 90px;
+}
+div#footer #footer_b .f_logo{
+	width: 218px;
+	height:128px;
+	margin-right: 40px;
+	float: left;
+}
+/*底部下方：列表*/
+div#footer #footer_b ul.t_sever{
+	width: 131px;
+	float: left;	
+}
+div#footer #footer_b ul.t_sever li{
+	margin: 10px;
+	margin-top: 0px;
+}
+/*列表第一行字体大写*/
+div#footer #footer_b ul.t_sever li.s_big{
+	font-size: 18px;
+}
+div#footer #footer_b ul.t_sever li a{
+	color: #333;
+}
+/*悬停时的下划线*/
+div#footer #footer_b ul.t_sever li a:hover{
+	text-decoration: underline;
+}
+/*下方：右侧二维码*/
+div#footer #footer_b .t_ewm{
+	width: 108px;
+	height: 128px;
+	float: left;
+	margin:5px 0 0 10px;
+}
+div#footer #footer_b .t_ewm p{
+	text-align: center;
+}
+/*版权部分*/
+div#copy{
+	min-width: 1090px;
+	height: 113px;
+	background: #333;
+	color: #C2C2C2;
+	padding: 20px;
+}
+div#copy p{
+	text-align: center;
+	padding-top:10px ;
+}
