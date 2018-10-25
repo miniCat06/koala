@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网页考拉-购物车</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/shop_car.css">
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+</head>
+<body>
+    <!--网页头部-->
+    <!--顶部导航-->
+    <nav id="topNav">
+        <!--导航内容-->
+        <div id="nav_contain" class="myClear">
+            <!--顶部-左侧导航-->
+            <div id="topNavLeft">
+                <ul class="myClear font_gray">
+                    <li>考拉欢迎你!</li>
+                    <li><a href="login.html" target="_blank">登录</a></li>
+                    <li><a href="register.html" target="_blank">注册</a></li>
+                    <li>
+                        <a href="#">手机考拉</a>
+                        <div class="phone">
+                            <img src="img/header/phone.png" alt="" />
+                            <p>下载App</p>
+                            <p>领1000元新人红包</p>
+                            <div class="arr"></div>
+                            <div class="arr1"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--顶部-右侧导航-->
+            <div id="topNavRight">
+                <ul class="myClear font_gray">
+                    <li><a href="#" class="txt_h_c">每日签到</a></li>
+                    <li><a href="shopping_car.html" class="txt_h_c" target="_blank">我的订单</a></li>
+                    <li class="sec_menu_y">
+                        <a href="#" class="sec_menu">个人中心<i class="tri"></i></a>
+                        <div class="down_menu">
+                            <a href="#">我的优惠券</a>
+                            <a href="#">我的红包</a>
+                            <a href="#">我的考拉豆<span></span></a>
+                            <a href="#">账号管理</a>
+                            <a href="#">我的实名认证<span></span></a>
+                            <a href="#">我收藏的商品</a>
+                            <a href="#">我关注的品牌<span></span></a>
+                            <a href="#">售后管理</a>
+                        </div>
+                    </li>
+                    <li class="sec_menu_y">
+                        <a href="#" class="sec_menu">客户服务<i class="tri"></i></a>
+                        <div class="down_menu txt_w">
+                            <a href="#"><i class="ico1"></i>联系客服</a>
+                            <a href="#"><i class="ico2"></i>帮助中心</a>
+                        </div>
+                    </li>
+                    <li class="sec_menu_y">
+                        <a href="#" class="sec_menu">充值中心<i class="tri"></i></a>
+                        <div class="down_menu">
+                            <a href="#">话费流量</a>
+                            <a href="#">游戏充值</a>
+                            <a href="#">AppStore充值码</a>
+                        </div>
+                    </li>
+                    <li class="sec_menu_y">
+                        <a href="#" class="sec_menu">消费者权益<i class="tri"></i></a>
+                        <div class="down_menu">
+                            <a href="#">消费者告知书</a>
+                            <a href="#">消费投诉公示</a>
+                        </div>
+                    </li>
+                    <li class="sec_menu_y">
+                        <a href="#" class="sec_menu">更多<i class="tri"></i></a>
+                        <div class="down_menu">
+                            <a href="#">收藏本站<span></span></a>
+                            <a href="#">新浪微博
+                                <div class="qr_code">
+                                    <img src="img/header/wb.png" alt="" />
+                                    <div class="wb_arr"></div>
+                                    <div class="wb_arr1"></div>
+                                </div>
+                            </a>
+                            <a href="#">微信公众号
+                                <div class="qr_code">
+                                    <img src="img/header/wx.png" alt="" />
+                                    <div class="wb_arr"></div>
+                                    <div class="wb_arr1"></div>
+                                </div>
+                            </a>
+                            <a href="#">易信公众号<span></span>
+                                <div class="qr_code">
+                                    <img src="img/header/yx.png" alt="" />
+                                    <div class="wb_arr"></div>
+                                    <div class="wb_arr1"></div>
+                                </div>
+                            </a>
+                            <a href="#">招商合作<span></span></a>
+                            <a href="#">考拉招聘</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--搜索栏-->
+    <div id="search">
+        <div class="search_1">
+            <!--左侧图标-->
+            <img src="img/header/logo.png" id="logo"/>
+        </div>
+    </div>
+    <!--网页主体-->
+    <section>
+        <!--基本信息-->
+        <div id="shop_car">
+            <span class="shop_car_1">我的购物车</span>
+            <div class="shop_car_2">
+                <span>配送至</span>
+                <span>河南/郑州市/高新区 <img src="img/shop_car/tab.png" alt=""></span>
+            </div>
+            <!--隐藏地址-->
+            <div id="shop_none">
+                <ul class="myClear">
+                    <li>省份</li>
+                    <li>城市</li>
+                    <li>县区</li>
+                </ul>
+                <!--隐藏具体内容-->
+                    <div class="province">
+                        <ul class="myClear">
+                            <li>华北：</li>
+                            <li>北京</li>
+                            <li>天津</li>
+                            <li>河北</li>
+                            <li>山西</li>
+                            <li>内蒙</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>华东：</li>
+                            <li>上海</li>
+                            <li>江苏</li>
+                            <li>浙江</li>
+                            <li>安徽</li>
+                            <li>福建</li>
+                            <li>山东</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>华南：</li>
+                            <li>广东</li>
+                            <li>广西</li>
+                            <li>海南</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>华中：</li>
+                            <li>江西</li>
+                            <li>河北</li>
+                            <li class="opt">河南</li>
+                            <li>湖南</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>西南：</li>
+                            <li>重庆</li>
+                            <li>四川</li>
+                            <li>贵州</li>
+                            <li>云南</li>
+                            <li>西藏</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>西北：</li>
+                            <li>陕西</li>
+                            <li>甘肃</li>
+                            <li>青海</li>
+                            <li>宁夏</li>
+                            <li>新疆</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>东北：</li>
+                            <li>辽宁</li>
+                            <li>吉林</li>
+                            <li>黑龙江</li>
+                        </ul>
+                    </div>
+                    <div class="city">
+                        <ul class="myClear">
+                            <li class="opt">郑州市</li>
+                            <li>开封市</li>
+                            <li>洛阳市</li>
+                            <li>平顶山市</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>安阳市</li>
+                            <li>鹤壁市</li>
+                            <li>新乡市</li>
+                            <li>焦作市</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>濮阳市</li>
+                            <li>许昌市</li>
+                            <li>漯河市</li>
+                            <li>三门峡市</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>南阳市</li>
+                            <li>商丘市</li>
+                            <li>信阳市</li>
+                            <li>周口市</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>驻马店市</li>
+                            <li>济源市</li>
+                        </ul>
+                    </div>
+                    <div class="city city1">
+                        <ul class="myClear">
+                            <li class="opt">高新区</li>
+                            <li>郑东新区</li>
+                            <li>中原区</li>
+                            <li>二七区</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>管城回族区</li>
+                            <li>金水区</li>
+                            <li>上街区</li>
+                            <li>惠济区</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>中牟县</li>
+                            <li>巩义市</li>
+                            <li>荣阳市</li>
+                            <li>新密市</li>
+                        </ul>
+                        <ul class="myClear">
+                            <li>新郑市</li>
+                            <li>登封市</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        <!--购物车导航-->
+        <div id="shop_nav">
+            <div>
+                <input type="checkbox" id="selectAll"/>
+                <label for="selectAll">全选</label>
+            </div>
+            <span class="shop_nav1">商品信息</span>
+            <span>单价(元)</span>
+            <span>数量</span>
+            <span>金额(元)</span>
+            <span>操作</span>
+        </div>
+        <!--商品信息-->
+        <div id="shop_pro">
+            <div>
+                <input type="checkbox">
+                <img src="img/shop_car/shop_pro1.jpg" alt="">
+                <div class="pro_title myClear">
+                    <a href="product_detail.html" target="_blank">豆腐の盛田屋 豆乳奶酪面膜 150克 美白补水保湿 学生党福利</a>
+                    <p><img src="img/shop_car/7.png" alt=""> 支持7天无忧退货</p>
+                    <a href="#">特价</a>
+                </div>
+                <div class="pro_price">
+                    <p>159.00</p>
+                    <p>94.00</p>
+                </div>
+                <div class="btn">
+                    <button>━</button>
+                    <input type="text" value="1">
+                    <button>＋</button>
+                </div>
+                <p>94.00</p>
+                <div class="operation">
+                    <p>删除</p>
+                    <p>移入我的收藏</p>
+                </div>
+            </div>
+            <div>
+                <input type="checkbox">
+                <img src="img/shop_car/shop_pro2.jpg" alt="">
+                <div class="pro_title myClear">
+                    <a href="product_detail.html" target="_blank">banila co. 芭妮兰 净柔卸妆膏卸妆膏 100毫升【拍套餐享优惠】</a>
+                    <p><img src="img/shop_car/30.png" alt=""> 支持30天无忧退货</p>
+                    <a href="#">特价</a>
+                </div>
+                <div class="pro_price">
+                    <p>198.00</p>
+                    <p>89.00</p>
+                </div>
+                <div class="btn">
+                    <button>━</button>
+                    <input type="text" value="1">
+                    <button>＋</button>
+                </div>
+                <p>89.00</p>
+                <div class="operation">
+                    <p>删除</p>
+                    <p>移入我的收藏</p>
+                </div>
+            </div>
+            <div>
+                <input type="checkbox">
+                <img src="img/shop_car/shop_pro3.jpg" alt="">
+                <div class="pro_title myClear">
+                    <a href="product_detail.html" target="_blank">
+                        BIODERMA 贝德玛 舒妍温和保湿卸妆水 500毫升 粉水 敏感肌用</a>
+                    <p><img src="img/shop_car/30.png" alt=""> 支持30天无忧退货</p>
+                    <a href="#">特价</a>
+                </div>
+                <div class="pro_price">
+                    <p>225.00</p>
+                    <p>89.00</p>
+                </div>
+                <div class="btn">
+                    <button>━</button>
+                    <input type="text" value="1">
+                    <button>＋</button>
+                </div>
+                <p>89.00</p>
+                <div class="operation">
+                    <p>删除</p>
+                    <p>移入我的收藏</p>
+                </div>
+            </div>
+        </div>
+        <!--优惠统计-->
+        <div id="shop_discounts">
+            <span>活动优惠：-￥0.00</span>
+            <span>商品应付总计：￥0.00</span>
+            <span>预估税费：￥0.00</span>
+        </div>
+        <!--价格结算-->
+        <div id="total" class="myClear">
+            <div class="all">
+                <input type="checkbox" id="selectAll1">
+                <label for="selectAll1">全选</label>
+            </div>
+            <p class="del">删除选中商品</p>
+            <div class="total_pro">
+                <p class="total_pro1">已选商品 <span class="total_red">0</span> 件&nbsp;&nbsp;&nbsp;&nbsp;总价(不含运费)：<span class="total_red">¥ 0.00</span></p>
+                <p class="total_pro2">
+                    <span>活动优惠：-¥ 0.00</span>
+                    <span>商品应付总计：¥ 0.00</span>
+                    <span>商品税费（不含运费税）：¥ 0.00</span>
+                </p>
+            </div>
+            <a href="#">去结算</a>
+        </div>
+    </section>
+    <!--网页底部-->
+    <footer>
+        <iframe src="footer.html" class="my_footer" frameborder="0"></iframe>
+    </footer>
+</body>
+</html>

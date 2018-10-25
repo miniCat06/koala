@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="css/product_detail.css">
+    <title>网易考拉-商品详情</title>
+</head>
+<body>
+    <!--网页头部-->
+    <!--顶部导航-->
+    <nav id="topNav">
+        <!--导航内容-->
+        <div id="nav_contain" class="myClear">
+            <!--顶部-左侧导航-->
+            <div id="topNavLeft">
+                <ul class="myClear font_gray">
+                    <li>考拉欢迎你!</li>
+                    <li><a href="login.html" target="_blank">登录</a></li>
+                    <li><a href="register.html" target="_blank">注册</a></li>
+                    <li>
+                        <a href="#">手机考拉</a>
+                        <div class="phone">
+                            <img src="img/header/phone.png" alt="" />
+                            <p>下载App</p>
+                            <p>领1000元新人红包</p>
+                            <div class="arr"></div>
+                            <div class="arr1"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--顶部-右侧导航-->
+            <div id="topNavRight">
+                <ul class="myClear font_gray">
+                    <li><a href="#" class="txt_h_c">每日签到</a></li>
+                    <li><a href="shopping_car.html" class="txt_h_c" target="_blank">我的订单</a></li>
+                    <li class="sec_menu_y">
+                        <a href="#" class="sec_menu">个人中心<i class="tri"></i></a>
+                        <div class="down_menu">
+                            <a href="#">我的优惠券</a>
+                            <a href="#">我的红包</a>
+                            <a href="#">我的考拉豆<span></span></a>
+                            <a href="#">账号管理</a>
+                            <a href="#">我的实名认证<span></span></a>
+                            <a href="#">我收藏的商品</a>
+                            <a href="#">我关注的品牌<span></span></a>
+                            <a href="#">售后管理</a>
+                        </div>
+                    </li>
+                    <li class="sec_menu_y">
+                        <a href="#" class="sec_menu">客户服务<i class="tri"></i></a>
+                        <div class="down_menu txt_w">
+                            <a href="#"><i class="ico1"></i>联系客服</a>
+                            <a href="#"><i class="ico2"></i>帮助中心</a>
+                        </div>
+                    </li>
+                    <li class="sec_menu_y">
+                        <a href="#" class="sec_menu">充值中心<i class="tri"></i></a>
+                        <div class="down_menu">
+                            <a href="#">话费流量</a>
+                            <a href="#">游戏充值</a>
+                            <a href="#">AppStore充值码</a>
+                        </div>
+                    </li>
+                    <li class="sec_menu_y">
+                        <a href="#" class="sec_menu">消费者权益<i class="tri"></i></a>
+                        <div class="down_menu">
+                            <a href="#">消费者告知书</a>
+                            <a href="#">消费投诉公示</a>
+                        </div>
+                    </li>
+                    <li class="sec_menu_y">
+                        <a href="#" class="sec_menu">更多<i class="tri"></i></a>
+                        <div class="down_menu">
+                            <a href="#">收藏本站<span></span></a>
+                            <a href="#">新浪微博
+                                <div class="qr_code">
+                                    <img src="img/header/wb.png" alt="" />
+                                    <div class="wb_arr"></div>
+                                    <div class="wb_arr1"></div>
+                                </div>
+                            </a>
+                            <a href="#">微信公众号
+                                <div class="qr_code">
+                                    <img src="img/header/wx.png" alt="" />
+                                    <div class="wb_arr"></div>
+                                    <div class="wb_arr1"></div>
+                                </div>
+                            </a>
+                            <a href="#">易信公众号<span></span>
+                                <div class="qr_code">
+                                    <img src="img/header/yx.png" alt="" />
+                                    <div class="wb_arr"></div>
+                                    <div class="wb_arr1"></div>
+                                </div>
+                            </a>
+                            <a href="#">招商合作<span></span></a>
+                            <a href="#">考拉招聘</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--搜索栏-->
+    <div id="search">
+        <div class="search_1">
+            <!--左侧图标-->
+            <img src="img/header/logo.png" id="logo"/>
+            <!--中间搜索栏-->
+            <div id="toInput">
+                <div class="tu_search"></div>
+                <input type="text" placeholder="阿迪达斯金标贝壳头" id="txtSearch"/>
+                <span><img src="img/header/search.png" alt="" /></span>
+                <!--底部列表-->
+                <ul class="font_gray">
+                    <li><a href="#" class="txt_r">iPhone Xs</a></li>
+                    <li><a href="#">女包</a></li>
+                    <li><a href="#">项链</a></li>
+                    <li><a href="#" class="txt_r">全球工厂店</a></li>
+                    <li><a href="#">运动鞋</a></li>
+                    <li><a href="#">减肥</a></li>
+                    <li><a href="#">口红</a></li>
+                </ul>
+            </div>
+
+            <!--右侧图标-->
+            <div class="shopping">
+                <img src="img/header/shopping_car.png" alt="" />
+                <a href="shopping_car.html" target="_blank">购物车</a>
+            </div>
+        </div>
+    </div>
+    <!--内部导航-->
+    <header id="headNav">
+        <div class="headNav_1 my_heard">
+				<span class="cfy">
+					<span class="line">
+						<i class="t_line"></i>
+						<i class="t_line"></i>
+						<i class="t_line"></i>
+					</span>
+					<span class="txt_b">所有分类</span>
+					<ul id="allProduct" class="product_none">
+						<li class="cfy cfy_1">
+							<img src="img/header/mom.png" alt="" class="tu_icon"/>
+							<img src="img/header/mom1.png" alt="" class="tu_icon tu_icon_h"/>
+							<span class="t">母婴儿童</span>
+							<i class="arr_k">&gt;</i>
+							<div class="sec_menu_r">二级菜单</div>
+						</li>
+						<li class="cfy cfy_1 cfy_2">
+							<span class="tu_list">
+								<img src="img/header/bea.png" alt="" class="tu_icon"/>
+								<img src="img/header/bea1.png" alt="" class="tu_icon tu_icon_h"/>
+							</span>
+							<span class="t">美容彩妆</span>
+							<i class="arr_k">&gt;</i>
+							<div class="sec_menu_r">二级菜单</div>
+						</li>
+						<li class="cfy cfy_1 cfy_3">
+							<span class="tu_list">
+								<img src="img/header/bag.png" alt="" class="tu_icon"/>
+								<img src="img/header/bag1.png" alt="" class="tu_icon tu_icon_h"/>
+							</span>
+							<span class="t">轻奢</span>
+							<i class="arr_k">&gt;</i>
+							<div class="sec_menu_r">二级菜单</div>
+						</li>
+						<li class="cfy cfy_1 cfy_4">
+							<span class="tu_list">
+								<img src="img/header/fmaily.png" alt="" class="tu_icon"/>
+								<img src="img/header/fmaily1.png" alt="" class="tu_icon tu_icon_h"/>
+							</span>
+							<span class="t">家具个护</span>
+							<i class="arr_k">&gt;</i>
+							<div class="sec_menu_r">二级菜单</div>
+						</li>
+						<li class="cfy cfy_1 cfy_5">
+							<span class="tu_list">
+								<img src="img/header/nut.png" alt="" class="tu_icon"/>
+								<img src="img/header/nut1.png" alt="" class="tu_icon tu_icon_h"/>
+							</span>
+							<span class="t">营养保健</span>
+							<i class="arr_k">&gt;</i>
+							<div class="sec_menu_r">二级菜单</div>
+						</li>
+						<li class="cfy cfy_1 cfy_6">
+							<span class="tu_list">
+								<img src="img/header/watches.png" alt="" class="tu_icon"/>
+								<img src="img/header/watches1.png" alt="" class="tu_icon tu_icon_h"/>
+							</span>
+							<span class="t">手表配饰</span>
+							<i class="arr_k">&gt;</i>
+							<div class="sec_menu_r">二级菜单</div>
+						</li>
+						<li class="cfy cfy_1 cfy_7">
+							<span class="tu_list">
+								<img src="img/header/photo.png" alt="" class="tu_icon"/>
+								<img src="img/header/photo1.png" alt="" class="tu_icon tu_icon_h"/>
+							</span>
+							<span class="t">数码家电</span>
+							<i class="arr_k">&gt;</i>
+							<div class="sec_menu_r">二级菜单</div>
+						</li>
+						<li class="cfy cfy_1 cfy_8">
+							<span class="tu_list">
+								<img src="img/header/cate.png" alt="" class="tu_icon"/>
+								<img src="img/header/cate1.png" alt="" class="tu_icon tu_icon_h"/>
+							</span>
+							<span class="t">环球美食</span>
+							<i class="arr_k">&gt;</i>
+							<div class="sec_menu_r">二级菜单</div>
+						</li>
+						<li class="cfy cfy_1 cfy_9">
+							<span class="tu_list">
+								<img src="img/header/exercise.png" alt="" class="tu_icon"/>
+								<img src="img/header/exercise1.png" alt="" class="tu_icon tu_icon_h"/>
+							</span>
+							<span class="t">运动户外</span>
+							<i class="arr_k">&gt;</i>
+							<div class="sec_menu_r">二级菜单</div>
+						</li>
+						<li class="cfy cfy_1 cfy_10">
+							<span class="tu_list">
+								<img src="img/header/costume.png" alt="" class="tu_icon"/>
+								<img src="img/header/costume1.png" alt="" class="tu_icon tu_icon_h"/>
+							</span>
+							<span class="t">服饰鞋靴</span>
+							<i class="arr_k">&gt;</i>
+							<div class="sec_menu_r">二级菜单</div>
+						</li>
+					</ul>
+				</span>
+            <ul id="navList">
+                <li><a href="index.html" target="_blank">首页</a></li>
+                <li><a href="#">今日限购</a></li>
+                <li><a href="#">每日上新</a></li>
+                <li><a href="#">国家馆</a></li>
+                <li><a href="#">海外旗舰店</a></li>
+                <li><a href="#">工厂店</a></li>
+                <li><a href="#">品质奶粉</a></li>
+                <li><a href="#">人气面膜</a></li>
+                <li><a href="#">充值</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--中间部分-->
+    <section id="main">
+        <!--商品简介-->
+        <div id="pro_intro">
+            <span>美容护肤</span>
+            <span>&gt;</span>
+            <span>卸妆</span>
+            <span>&gt;</span>
+            <span>芭妮兰</span>
+            <span>&gt;</span>
+            <span> banila co. 芭妮兰 净柔卸妆膏卸妆膏 100毫升【拍套餐享优惠】</span>
+        </div>
+        <!--商品详情-->
+        <div id="pro_detail" class="myClear">
+            <!--商品详情：左侧-->
+            <div class="detail_left">
+                <img src="img/product_detail/lg/pro_p.jpg" alt="">
+                <div></div>
+            </div>
+            <!--商品详情：右侧-->
+            <div class="detail_right myClear">
+                <!--第一行-->
+                <div>
+                    <img src="img/product_detail/korea.png" alt="">
+                    <span>韩国</span>
+                    <span>|</span>
+                    <a href="#">banila co. 芭妮兰</a>
+                </div>
+                <!--第二行-->
+                <p>banila co. 芭妮兰 净柔卸妆膏卸妆膏 100毫升【拍套餐享优惠】</p>
+                <!--第三行-->
+                <p>芭妮兰新版，根据不同肤质个性定制款式，总有一款适合你~</p>
+                <!--第四行-->
+                <div class="price">
+                    <span class="pro_font">售价</span>
+                    <div>
+                        <p>
+                            <span class="color_red">新人价</span>
+                            <span class="color_red pro_size">¥89.00 </span>
+                            <span>考拉价</span>
+                            <span>¥92.00</span>
+                        </p>
+                        <p>
+                            <img src="img/product_detail/vip.png" alt="">
+                            <span>会员下单再享96折  ，预计省3.68元</span>
+                            <a href="#">开通会员</a>
+                        </p>
+                    </div>
+                </div>
+                <!--第五行-->
+                <div class="activity myClear ">
+                    <span class="pro_font">活动</span>
+                    <div class="pab-top">
+                        <span class="activity_2">新人价</span>
+                        <span class="color_red">新人专享</span>
+                    </div>
+                </div>
+                <!--第六行-->
+                <div class="tax myClear">
+                    <span class="pro_font">税费</span>
+                    <div class="pab-top">预估￥10.64，实际税费请以提交订单时为准&nbsp;&nbsp;&nbsp;税费收取规则</div>
+                </div>
+                <!--第七行-->
+                <div class="myClear">
+                    <span class="pro_font">运费</span>
+                    <div class="pab-top">至&nbsp;&nbsp;&nbsp;河南/郑州市/高新区&nbsp;&nbsp;&nbsp;满88元包邮</div>
+                </div>
+                <!--第八行-->
+                <div class="myClear">
+                    <span class="pro_font">服务</span>
+                    <div class="pab-top">本商品由 自营保税仓 发货</div>
+                </div>
+                <!--第九行-->
+                <div class="myClear pro_color">
+                    <span class="pro_font">颜色</span>
+                    <div class="pab-top">
+                        <img src="img/product_detail/sm/pro_p.jpg" alt="">
+                        <img src="img/product_detail/sm/pro_g.jpg" alt="">
+                        <img src="img/product_detail/sm/pro_pur.jpg" alt="">
+                        <img src="img/product_detail/sm/pro_y.jpg" alt="">
+                    </div>
+                </div>
+                <!--第十行-->
+                <div class="myClear pro_num">
+                    <span class="pro_font">数量</span>
+                    <div class="pab-top">
+                        <button>━</button>
+                        <input type="text" value="1">
+                        <button>＋</button>
+                        <span>库存充足</span>
+                    </div>
+                </div>
+                <!--第十一行-->
+                <div class="myClear explain">
+                    <span class="pro_font">说明</span>
+                    <div class="pab-top">
+                        <span>会员96折</span>
+                        <span>正品保障</span>
+                        <span>支持30天无忧退货</span>
+                    </div>
+                </div>
+                <!--第十二行-->
+                <div class="myClear shop">
+                    <a href="#" class="buy">立即购买</a>
+                    <a href="#" class="shopCar">加入购物车</a>
+                    <b></b>
+                    <i></i>
+                    <a href="#" class="my_size">收藏</a>
+                </div>
+                <!--第十三行-->
+                <div class="myClear pab-top eva">
+                    <ul>
+                        <li>☆</li>
+                        <li>☆</li>
+                        <li>☆</li>
+                        <li>☆</li>
+                        <li>☆</li>
+                        <li>99%</li>
+                    </ul>
+                    <a href="#">16878人评价</a>
+                    <a href="#">1525人晒单</a>
+                </div>
+            </div>
+        </div>
+        <!--相关推荐-->
+        <div id="pro_recommend">
+            <span>优惠套餐</span>
+            <span>相关推荐</span>
+        </div>
+        <!--相关推荐内容-->
+        <div id="pro_recommend1">
+            <div class="rec_left myClear">
+                <div class="left_Top">
+                    <span>卸妆黄金套组</span>
+                    <span>芭妮兰+RAY</span>
+                </div>
+                <div class="left_bottom myClear">
+                    <span class="left_bottom_1">
+                        <img src="img/product_detail/md/pro_p.jpg" alt="">
+                        <a href="#">banila co. 芭妮兰 净柔卸妆膏卸妆膏 100毫升【拍套餐享优惠】</a>
+                    </span>
+                    <img src="img/product_detail/plus.png" alt="">
+                    <span class="left_bottom_1">
+                        <img src="img/product_detail/set_meal.jpg" alt="">
+                        <a href="#">mandom 曼丹 眼唇专用卸妆液  145毫升 平价中的战斗机 【拍套餐享优惠】</a>
+                    </span>
+                </div>
+            </div>
+            <div class="rec_right">
+                <ul>
+                    <li>卸妆黄金套组</li>
+                    <li>套餐价：  <span>¥140</span></li>
+                    <li>单买价：  ¥154</li>
+                    <li><a href="#" class="buy">立即购买</a></li>
+                    <li><a href="#" class="shopCar">加入购物车</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--商品信息-->
+        <div id="infor" class="myClear">
+            <!--商品信息：左侧-->
+            <div class="infor_left">
+                <!--看了又看-->
+                <div>
+                    <p>看了又看</p>
+                    <div>
+                        <img src="img/product_detail/infor_left_1.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</a>
+                        <div class="limit">
+                            <span class="font_red">¥119</span>
+                            <span class="font_del">¥225</span>
+                        </div>
+                        <a href="#">95958 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left_2.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">EltaMD 氨基酸泡沫卸妆洁面乳 207毫升</a>
+                        <div class="limit">
+                            <span class="font_red">¥148</span>
+                            <span class="font_del">¥167</span>
+                        </div>
+                        <a href="#">55355 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left_3.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">【2件装 韩国本土版】banila co. 芭妮兰 致柔卸妆膏卸</a>
+                        <div class="limit">
+                            <span class="font_red">¥159</span>
+                            <span class="font_del">¥320</span>
+                        </div>
+                        <a href="#">23 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left_4.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">BanilaCO芭妮兰 zero致柔卸妆膏 韩国2018新版 180m</a>
+                        <div class="limit">
+                            <span class="font_red">¥149</span>
+                            <span class="font_del">¥299</span>
+                        </div>
+                        <a href="#">86 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left_5.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">banila co. 芭妮兰 zero致柔卸妆膏 180毫升</a>
+                        <div class="limit">
+                            <span class="font_red">¥169</span>
+                            <span class="font_del">¥230</span>
+                        </div>
+                        <a href="#">1003 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left_6.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">【2罐装】banila co. 芭妮兰 净柔卸妆膏卸妆膏 100毫升</a>
+                        <div class="limit">
+                            <span class="font_red">¥175</span>
+                            <span class="font_del">¥396</span>
+                        </div>
+                        <a href="#">1043 人已评价</a>
+                    </div>
+                </div>
+                <!--看了最终买-->
+                <div>
+                    <p>看了最终买</p>
+                    <div>
+                        <img src="img/product_detail/infor_left1_1.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">【品牌直采】Aveeno 艾惟诺 婴儿天然燕麦滋润保湿润</a>
+                        <div class="limit">
+                            <span class="font_red">¥49</span>
+                            <span class="font_del">¥88</span>
+                        </div>
+                        <a href="#">54800 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left1_2.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">【自营包税】JMsolution jm水光蜂蜜面膜 10片*2盒 紧</a>
+                        <div class="limit">
+                            <span class="font_red">¥142</span>
+                            <span class="font_del">¥259</span>
+                        </div>
+                        <a href="#">35569 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left1_3.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">【3盒装】MEDIHEAL 美迪恵尔 N.M.F针剂水库保湿面</a>
+                        <div class="limit">
+                            <span class="font_red">¥186</span>
+                            <span class="font_del">¥450</span>
+                        </div>
+                        <a href="#">1355 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left1_4.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">【日本版】SHISEIDO 资生堂旗下HANDCREAM 美润 </a>
+                        <div class="limit">
+                            <span class="font_red">¥88</span>
+                            <span class="font_del">¥135</span>
+                        </div>
+                        <a href="#">16969 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left1_5.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">【2件装】Freeplus 芙丽芳丝 净润洗面霜 100g 洗面奶 </a>
+                        <div class="limit">
+                            <span class="font_red">¥209</span>
+                            <span class="font_del">¥300</span>
+                        </div>
+                        <a href="#">51960 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left1_6.jpg" alt="">
+                        <a href="product_detail.html" class="infor_size">【痘痘肌油皮必备】COSME DECORTE 黛珂水乳套组</a>
+                        <div class="limit">
+                            <span class="font_red">¥1019</span>
+                            <span class="font_del">¥1388</span>
+                        </div>
+                        <a href="#">603 人已评价</a>
+                    </div>
+                </div>
+                <!--热销排行榜-->
+                <div>
+                    <p>热销排行榜</p>
+                    <div>
+                        <img src="img/product_detail/infor_left2_1.jpg" alt="">
+                        <img class="infor_icon" src="img/product_detail/1.png" alt="">
+                        <a href="product_detail.html" class="infor_size">贝德玛 舒妍温和卸妆水 500毫升 蓝水 卸妆保养一瓶搞</a>
+                        <div class="limit">
+                            <span class="font_red">¥105</span>
+                            <span class="font_del">¥450</span>
+                        </div>
+                        <a href="#">9888 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left1_2.jpg" alt="">
+                        <img class="infor_icon" src="img/product_detail/2.png" alt="">
+                        <a href="product_detail.html" class="infor_size">BIODERMA 贝德玛 舒妍温和保湿卸妆水 500毫升 粉水 </a>
+                        <div class="limit">
+                            <span class="font_red">¥182</span>
+                            <span class="font_del">¥450</span>
+                        </div>
+                        <a href="#">9888 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left1_3.jpg" alt="">
+                        <img class="infor_icon" src="img/product_detail/3.png" alt="">
+                        <a href="product_detail.html" class="infor_size">BIODERMA 贝德玛 舒妍温和保湿卸妆水 500毫升 粉水 </a>
+                        <div class="limit">
+                            <span class="font_red">¥119</span>
+                            <span class="font_del">¥225</span>
+                        </div>
+                        <a href="#">1355 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left1_4.jpg" alt="">
+                        <img class="infor_icon" src="img/product_detail/4.png" alt="">
+                        <a href="product_detail.html" class="infor_size">BIODERMA 贝德玛 舒妍温和保湿卸妆水 粉水TS 500 </a>
+                        <div class="limit">
+                            <span class="font_red">¥189</span>
+                            <span class="font_del">¥450</span>
+                        </div>
+                        <a href="#">23058 人已评价</a>
+                    </div>
+                    <div>
+                        <img src="img/product_detail/infor_left1_5.jpg" alt="">
+                        <img class="infor_icon" src="img/product_detail/5.png" alt="">
+                        <a href="product_detail.html" class="infor_size">UNNY 悠宜 深层清洁卸妆水 500毫升【拍套餐享优 </a>
+                        <div class="limit">
+                            <span class="font_red">¥69</span>
+                            <span class="font_del">¥95</span>
+                        </div>
+                        <a href="#">5440 人已评价</a>
+                    </div>
+                </div>
+            </div>
+            <!--商品信息：右侧-->
+            <div class="infor_right myClear">
+                <div class="infor_nav">
+                    <span>商品详情</span>
+                    <span>用户评价</span>
+                    <span>考拉答疑</span>
+                    <span>手机购买 <img src="img/product_detail/QR.png" alt=""></span>
+                </div>
+                <ul>
+                    <li>
+                        <p>失效日期：2021年03月08日——2021年06月04日，具体日期以实际发货批次为准</p>
+                        <p>
+                            <span>保质期：1095天</span>
+                            <span>适合肤质 ：任何肤质</span>
+                            <span>功能：卸妆</span>
+                        </p>
+                    </li>
+                    <li><img src="img/product_detail/middle_1.png" alt=""></li>
+                    <li class="myClear">
+                        <div>真</div>
+                        <div class="jia">
+                            <p>假一赔十</p>
+                            <p>网易考拉每一件商品都通过严苛的品质把关，保障正品，保障品质。特推出 “假一赔十” 的正品保障政策，杜绝一切假货，让您无忧购物。</p>
+                        </div>
+                    </li>
+                    <li class="tu">
+                        <p>
+                            <img src="img/product_detail/middle_2.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_3.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_4.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_5.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_6.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_7.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_8.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_9.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_10.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_11.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_12.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_13.jpg" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_14.png" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_15.png" alt="">
+                        </p>
+                        <p>
+                            <img src="img/product_detail/middle_16.jpg" alt="">
+                        </p>
+                    </li>
+                </ul>
+                <div class="price_det">
+                    <div class="price_det1">
+                        <p class="price_font">价格说明：</p>
+                        <p>1、划线价、参考价：商品展示的划线价或参考价可能是品牌专柜价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在考拉上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。</p>
+                        <p>2、促销价：如无特殊说明，促销价是销售商在参考价基础上给予的优惠价格。如有疑问，您可以在购买前与客服联系。</p>
+                        <p>3、考拉价：考拉非会员用户购买的商品详情页显示的售价，是非会员用户最终决定是否购买该商品的依据。</p>
+                        <p>4、会员价：在考拉价的基础上给予会员用户的优惠价格，仅会员用户可以会员价购买该商品。</p>
+                        <p>5、价格异常：因可能存在系统缓存、页面更新延迟等不确定性情况，导致价格显示异常，商品具体售价请以订单结算页价格为准。如您发现异常情况出现，请立即联系我们补正，以便您能顺利购物。</p>
+                    </div>
+                    <div class="price_det2">
+                            <p>消费者告知书</p>
+                            <p>尊敬的客户：</p>
+                            <p class="indent">您好！为帮助您更好地选购境外商品，请您在购买前务必认真、详细阅读并完全理解本告知书的全部内容，并对自身风险承担做出客观判断。同意本告知书内容后再下单购买：</p>
+                            <ol>
+                                <li>您在网易考拉上购买的境外商品等同于原产地直接销售商品，因此商品本身可能无中文标签，如果需要您可以通过网站查看相关商品标签中文翻译或联系客服。</li>
+                                <li>根据相关法律政策，您选购的境外商品仅限于个人自用，不得进行再次销售。</li>
+                                <li>您购买的境外商品符合原产地有关品质、健康、标识的相关标准，与我国产品标准或有所不同，由此可能造成的危害、损失或者其他风险，网易考拉不承担责任。</li>
+                                <li>网易考拉并非商品售卖方，商品均由商家向您提供，由商家承担其商品的质量保证责任。</li>
+                                <li>为了方便您对跨境电商模式的理解，可前往 跨境电商消费教育基地 了解更多详情。</li>
+                            </ol>
+                            <p class="indent">网易考拉精选全球好货，严控每一个环节，为顾客提供正品保障。具体参见正品保障说明</p>
+                            <p class="prc_right1">谢谢！</p>
+                            <p class="prc_right">网易考拉</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--网页底部-->
+    <footer>
+        <iframe class="my_footer" src="footer.html" frameborder="0"></iframe>
+    </footer>
+</body>
+</html>
