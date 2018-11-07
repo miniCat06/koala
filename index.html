@@ -8,8 +8,9 @@
 		<link rel="stylesheet" href="css/footer.css" />
 		<link rel="stylesheet" href="css/base.css" />
 		<link rel="shortcut icon" href="img/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css">
 	</head>
-	<body>
+	<body onload="lb()">
 		<!--网页头部-->
 		<!--顶部导航-->
 		<nav id="topNav">
@@ -251,8 +252,54 @@
 		</header>
 		<!--轮播图-->
 		<div id="topWrap">
-			<img src="img/index/banner1.jpg" alt="" />
+			<div id="lunbo">
+				<img src="img/index/banner1.jpg" alt="" />
+				<img src="img/index/banner2.jpg" alt="" />
+				<img src="img/index/banner3.jpg" alt="" />
+				<img src="img/index/banner4.jpg" alt="" />
+				<img src="img/index/banner5.jpg" alt="" />
+			</div>
+			<!--轮播图下方的信息-->
+			<div class="lunbo_text">
+				<div class="lb_msg">
+					<ul class="msg_left">
+						<li>
+							<i class="iconfont icon-ziqian"></i>
+							<a href="#">网易自营</a>
+						</li>
+						<li>
+							<i class="iconfont icon-tansuob"></i>
+							<a href="#">全球直采</a>
+						</li>
+						<li>
+							<i class="iconfont icon-zhengpinbaozhang2"></i>
+							<a href="#">假一赔十</a>
+						</li>
+						<li>
+							<i class="iconfont icon-tuikuanshouhou"></i>
+							<a href="#">退款无忧</a>
+						</li>
+					</ul>
+					<div class="msg_right">
+						<i class="iconfont icon-shouji"></i>
+						<a href="#">领考拉1000元新人礼，APP下单更享手机价</a>
+					</div>
+				</div>
+			</div>
 		</div>
+		<script type="text/javascript">
+			var lunbo=[0,1920,3840,5760,7680,9600]
+			var sub=0
+			function lb(){
+				setInterval(function (){
+					var active=document.getElementById("lunbo")
+					sub++
+					if(sub>4)
+						sub=0
+					active.style.left="-"+lunbo[sub]+"px"
+				},4000)
+			}
+		</script>
 		<!--内容区域-->
 		<section id="contain">
 			<!--专区-->
