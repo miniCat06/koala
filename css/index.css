@@ -1,6 +1,57 @@
 body{
 	background: #F6F6F6;
 }
+/*轮播图*/
+div#topWrap{
+	width: 100%;
+	position: relative;
+	height: 506px;
+	overflow: hidden;
+}
+div#topWrap #lunbo{
+	width: 9600px;
+	display: flex;
+	position: absolute;
+	height: 506px;
+}
+/*轮播图下方信息*/
+div.lunbo_text{
+	width: 100%;
+	height: 51px;
+	background:rgba(0,0,0,.3) ;
+	z-index: 5;
+	position: absolute;
+	bottom: 0;
+}
+div.lunbo_text div.lb_msg{
+	width: 1090px;
+	margin: 0 auto;
+}
+i.iconfont{
+	font-size: 22px;
+	color: #fff;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+div.lunbo_text div.lb_msg ul{
+	float: left;
+	height:50px;
+}
+div.lunbo_text div.lb_msg ul li{
+	float: left;
+	width: 110px;
+	height:50px;
+	line-height: 50px;
+	margin-right: 20px;
+}
+div.lunbo_text div.lb_msg a{
+	color: #fff;
+}
+div.lunbo_text div.msg_right{
+	float: right;
+	height: 50px;
+	line-height: 50px;
+}
 #contain{
 	width: 1120px;
 	margin: 20px auto 0;
@@ -141,7 +192,6 @@ body{
 	line-height: 24px;
 	text-align: left;
 	margin: 7px 0 7px 0;
-	padding-right: 30px;
 	box-sizing: border-box;
 }
 #contain .update_new .update_new1 h3 a{
